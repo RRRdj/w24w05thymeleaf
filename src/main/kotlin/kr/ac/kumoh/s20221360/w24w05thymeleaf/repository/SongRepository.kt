@@ -11,7 +11,7 @@ class SongRepository {
         Song(3,"소주 한 잔","임창정"),
     )
 
-    val songSize: Int
+    val songsSize: Int
         get() = songs.size
 
     fun getSong(index: Int) = songs[index]
